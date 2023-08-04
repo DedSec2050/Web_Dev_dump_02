@@ -80,7 +80,7 @@ body{
 
 }
 .col img{
-    width: 4rem;
+    width: 4vw;
     margin-right: 10px;
 }
 .humidity, .wind{
