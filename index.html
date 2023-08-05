@@ -10,7 +10,7 @@
     <div class="card">
         <div class="search">
             <input id="cityInput" type="text" placeholder="enter city name" spellcheck="false">
-            <button><img src= "Images/search.png"></button>
+            <button><img src= "Images/search.jpg"></button>
         </div>
         <div class="error">
             <p>Invalid City Name</p>
@@ -144,8 +144,16 @@
 
         // }
         // Day1
+        // Display Icons
+        // weatherIcon.src =  "https://openweathermap.org/img/wn/"+data.list[0].weather[0].icon+'.png';
+        // weatherIcon1.src =  "https://openweathermap.org/img/wn/"+data.list[7].weather[0].icon+'.png';
+        // weatherIcon2.src =  "https://openweathermap.org/img/wn/"+data.list[15].weather[0].icon+'.png';
+        // weatherIcon3.src =  "https://openweathermap.org/img/wn/"+data.list[23].weather[0].icon+'.png';
+        // weatherIcon4.src =  "https://openweathermap.org/img/wn/"+data.list[31].weather[0].icon+'.png';
+        // weatherIcon5.src =  "https://openweathermap.org/img/wn/"+data.list[39].weather[0].icon+'.png';
+
         if(data.list[7].weather[0].main == "Clouds"){
-            weatherIcon1.src = "Images/clouds.png";
+            weatherIcon1.src =  "Images/clouds.png";
         }
         else if(data.list[7].weather[0].main == "Clear"){
             weatherIcon1.src = "Images/clear.png";
