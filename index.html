@@ -130,29 +130,33 @@
             weatherIcon.src = "Images/mist.png";
         }
         // Forecast
-        for(i=1;i<6;i++)
-        {
-            document.querySelector(".day"+String(i)+"temp").innerHTML = data.list[i].main.temp + "°C";
+        // for(i=1;i<6;i++)
+        // {
+            document.querySelector(".day1temp").innerHTML = data.list[7].main.temp + "°C";
+            document.querySelector(".day2temp").innerHTML = data.list[15].main.temp + "°C";
+            document.querySelector(".day3temp").innerHTML = data.list[23].main.temp + "°C";
+            document.querySelector(".day4temp").innerHTML = data.list[31].main.temp + "°C";
+            document.querySelector(".day5temp").innerHTML = data.list[39].main.temp + "°C";
             // document.querySelector(".day2temp").innerHTML = data.list[2].main.temp + "°C";
             // document.querySelector(".day3temp").innerHTML = data.list[3].main.temp + "°C";
             // document.querySelector(".day4temp").innerHTML = data.list[4].main.temp + "°C";
             // document.querySelector(".day5temp").innerHTML = data.list[5].main.temp + "°C";
 
-        }
+        // }
         // Day1
-        if(data.list[1].weather[0].main == "Clouds"){
+        if(data.list[8].weather[0].main == "Clouds"){
             weatherIcon1.src = "Images/clouds.png";
         }
-        else if(data.list[1].weather[0].main == "Clear"){
+        else if(data.list[8].weather[0].main == "Clear"){
             weatherIcon1.src = "Images/clear.png";
         }
-        else if(data.list[1].weather[0].main == "Rain"){
+        else if(data.list[8].weather[0].main == "Rain"){
             weatherIcon1.src = "Images/rain.png";
         }
-        else if(data.list[1].weather[0].main == "Drizzle"){
+        else if(data.list[8].weather[0].main == "Drizzle"){
             weatherIcon1.src = "Images/drizzle.png";
         }
-        else if(data.list[1].weather[0].main == "Mist"){
+        else if(data.list[8].weather[0].main == "Mist"){
             weatherIcon1.src = "Images/mist.png";
         }
 
