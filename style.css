@@ -139,3 +139,53 @@ body{
     justify-self: auto;
 }
 
+
+@media only screen and (max-width: 900px) {
+    body{
+        background: #222;
+    }
+    .card{
+        width: 100%;
+        background: linear-gradient(125deg, #a01604, #c98d0b);
+
+    }
+    /* .search{
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    } */
+    .search{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #cityInput{
+        width: 35vw;
+        margin-bottom: 2vh;
+    }
+    .search button{
+        width: 9vw;
+    }
+    
+
+    #weatherContainer{
+        width: 100%;
+        background: linear-gradient(125deg, #a01604, #c98d0b);
+        display: flex-wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #iconsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    #iconsContainer .icons{
+        margin-bottom: 3vh;
+        border: 12px #fff;
+    }
+}
