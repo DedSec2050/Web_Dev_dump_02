@@ -130,28 +130,12 @@
             weatherIcon.src = "Images/mist.png";
         }
         // Forecast
-        // for(i=1;i<6;i++)
-        // {
             document.querySelector(".day1temp").innerHTML = Number(data.list[7].main.temp).toFixed(0) + "°C";
             document.querySelector(".day2temp").innerHTML = Number(data.list[15].main.temp).toFixed(0) + "°C";
             document.querySelector(".day3temp").innerHTML = Number(data.list[23].main.temp).toFixed(0) + "°C";
             document.querySelector(".day4temp").innerHTML = Number(data.list[31].main.temp).toFixed(0) + "°C";
             document.querySelector(".day5temp").innerHTML = Number(data.list[39].main.temp).toFixed(0) + "°C";
-            // document.querySelector(".day2temp").innerHTML = data.list[2].main.temp + "°C";
-            // document.querySelector(".day3temp").innerHTML = data.list[3].main.temp + "°C";
-            // document.querySelector(".day4temp").innerHTML = data.list[4].main.temp + "°C";
-            // document.querySelector(".day5temp").innerHTML = data.list[5].main.temp + "°C";
-
-        // }
-        // Day1
-        // Display Icons
-        // weatherIcon.src =  "https://openweathermap.org/img/wn/"+data.list[0].weather[0].icon+'.png';
-        // weatherIcon1.src =  "https://openweathermap.org/img/wn/"+data.list[7].weather[0].icon+'.png';
-        // weatherIcon2.src =  "https://openweathermap.org/img/wn/"+data.list[15].weather[0].icon+'.png';
-        // weatherIcon3.src =  "https://openweathermap.org/img/wn/"+data.list[23].weather[0].icon+'.png';
-        // weatherIcon4.src =  "https://openweathermap.org/img/wn/"+data.list[31].weather[0].icon+'.png';
-        // weatherIcon5.src =  "https://openweathermap.org/img/wn/"+data.list[39].weather[0].icon+'.png';
-
+            
         if(data.list[7].weather[0].main == "Clouds"){
             weatherIcon1.src =  "Images/clouds.png";
         }
