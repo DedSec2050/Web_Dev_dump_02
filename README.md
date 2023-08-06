@@ -1,5 +1,5 @@
 # Weather_Dashboard
-## Made a weather dashboard using HTML, CSS and JS. <br> It shows current Weather conditions, temperature, humidity and wind speed , and in addition to that it also shows forecast of 5 days by fetching the data from OpenWeatherMap API.
+## Made a weather dashboard using HTML, CSS and JS. <br> It shows current Weather conditions, temperature, humidity and wind speed , and in addition to that it also shows forecast of 5 days by fetching the data from OpenWeatherMap API according to the city entered in the search box.
 
 ### Link :  https://weather-dashboard-w1660.netlify.app/
 
